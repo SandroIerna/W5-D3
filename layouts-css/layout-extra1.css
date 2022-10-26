@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#main {
+  height: 95%;
+  display: flex;
+  gap: 10px;
+  align-content: space-around;
+  padding: 10px;
+}
+
+.column {
+  gap: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.row {
+  color: #fff;
+  border-radius: 4px;
+  flex-grow: 1;
+  background-color: #a32e76;
+}
+
+h1 {
+  margin-left: 10px;
+  font-size: 26px;
+}
